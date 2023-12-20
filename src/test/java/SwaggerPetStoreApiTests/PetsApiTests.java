@@ -41,7 +41,7 @@ public class PetsApiTests {
     @Feature("Получение питомца по идентификатору")
     @Test
     public void getPetById() {
-        API_STEPS.getPetById(1L);
+        API_STEPS.getPetById(2L);
     }
 
     @Feature("Удаление питомца по идентификатору")
